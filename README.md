@@ -3,9 +3,13 @@ kogpt2를 이용한 시간,  장소 정보 추출해서 날씨 정보 보여주�
 
 사용한 python version : 3.8.10
 
-# step 1
+# step 1 - 환경셋팅
 > pip install -r requirements.txt
+> pip install 'transformers[torch]'
 > source venv/bin/activate
+- 환경 셋팅
+: data.go.kr에서 받은 key 등록하기
+> export DATA_GO_KR_KEY=XXXXXXXXXXXXXXXXXXXXXX
 
 # step 2
 모델 FineTuning하기
